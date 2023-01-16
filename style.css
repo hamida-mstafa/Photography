@@ -1,0 +1,92 @@
+body{
+    overflow-x: scroll;
+    padding: 20px;
+    margin: 20px;
+}
+.header{
+    width: 100%;
+    height: 48px;
+    background-color: #4F4D53;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+span{
+    margin-left: -54%;
+    color: white;
+}
+#mids{
+    background-image: url('./media/img_hero.jpg');
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 500px;
+
+}
+h1{
+    font-family: 'Roboto Black';
+    font-weight: 900;
+    font-size: 100px;
+    color: #4F4D53;
+    text-align: center;
+    margin-top: 10%;
+
+    
+}
+h2{
+    font-family: 'Roboto Black '; 
+    font-weight: 900;
+    font-size: 64px;  
+    color: #E8BE02;
+    margin-left: -45%;
+}
+p{
+    color: #4F4D53;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: left;
+    font-family: 'Roboto Regular';
+    padding-bottom: 50px;
+    
+}
+.mids{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 25%;
+    margin-right: 20%;
+}
+#line{
+    background-color: #E8BE02;
+    height: 12px;
+    width: 100%;
+}
+.hams{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #4F4D53;
+    width: 100%;
+    height: 320px;
+
+}
+#hams{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h4{
+    font-family: 'Roboto Regular '; 
+    font-weight: 400;
+    font-size: 14px;  
+    color: #FFFFFF;
+}
+h3{
+    font-family: 'Roboto Black '; 
+    font-weight: 900;
+    font-size: 20px;  
+    color: #E8BE02;
+}
